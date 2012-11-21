@@ -34,6 +34,7 @@ Just get the code, configure and run:
 
     git clone https://github.com/ariejan/flexo.git
     cd flexo
+    bundle install
     cp config.example.yml config.yml
     vi config.yml
     sudo ruby server.rb
