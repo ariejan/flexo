@@ -1,0 +1,11 @@
+development: &defaults
+  tld: "example.com"
+  dns:
+    port: 53
+    listen: 0.0.0.0
+  updater:
+    port: 8889
+    listen: 0.0.0.0
+
+production:
+  <<- &defaults

@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    em-redis (0.3.0)
+      eventmachine
+    eventmachine (1.0.0)
+    rainbow (1.1.4)
+    rexec (1.5.1)
+      rainbow
+    rubydns (0.5.3)
+      eventmachine (~> 1.0.0)
+      rexec (~> 1.5.1)
+    settingslogic (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-redis
+  eventmachine
+  rubydns
+  settingslogic
